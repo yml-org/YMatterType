@@ -1,0 +1,1486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Typography Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Struct/Typography" class="dashAnchor"></a>
+
+    <a title="Typography Structure Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          YMatterType 1.0.2 Docs
+        </a>
+         (100% documented)
+      </p>
+    
+      <div class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </div>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">YMatterType Reference</a>
+      <img class="carat" src="../img/carat.png" alt=""/>
+      Typography Structure Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../pull_request_template.html">PULL_REQUEST_TEMPLATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../readme.html">README</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TypographyButton.html">TypographyButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TypographyLabel.html">TypographyLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TypographyTextField.html">TypographyTextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TypographyTextView.html">TypographyTextView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/NSAttributedString.html">NSAttributedString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/NSParagraphStyle.html">NSParagraphStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIFont.html">UIFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIFont/RegisterError.html">– RegisterError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UITraitCollection.html">UITraitCollection</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/FontRepresentable.html">FontRepresentable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/FontInfo.html">FontInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/SFProFontFamily.html">SFProFontFamily</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/SystemFontInfo.html">SystemFontInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Typography.html">Typography</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Typography/FontWeight.html">– FontWeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Typography/FontStyle.html">– FontStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Typography/TextCase.html">– TextCase</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Typography/TextDecoration.html">– TextDecoration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Typography/LineMode.html">– LineMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TypographyLayout.html">TypographyLayout</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>Typography</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Typography</span></code></pre>
+
+                </div>
+              </div>
+            <p>Represents a font as it would appear in a design document</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV10fontFamilyAA17FontRepresentable_pvp"></a>
+                    <a name="//apple_ref/swift/Property/fontFamily" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV10fontFamilyAA17FontRepresentable_pvp">fontFamily</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Information about the font family</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">fontFamily</span><span class="p">:</span> <span class="kt"><a href="../Protocols/FontRepresentable.html">FontRepresentable</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV10fontWeightAC04FontE0Ovp"></a>
+                    <a name="//apple_ref/swift/Property/fontWeight" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV10fontWeightAC04FontE0Ovp">fontWeight</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Font weight</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">fontWeight</span><span class="p">:</span> <span class="kt"><a href="../Structs/Typography/FontWeight.html">FontWeight</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV8fontSize12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/fontSize" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV8fontSize12CoreGraphics7CGFloatVvp">fontSize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Font size (aka point size)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">fontSize</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV10lineHeight12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/lineHeight" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV10lineHeight12CoreGraphics7CGFloatVvp">lineHeight</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Line height (typically greater than font size)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">lineHeight</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV13letterSpacing12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/letterSpacing" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV13letterSpacing12CoreGraphics7CGFloatVvp">letterSpacing</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Letter spacing (in points, not percentage)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">letterSpacing</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV8textCaseAC04TextE0Ovp"></a>
+                    <a name="//apple_ref/swift/Property/textCase" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV8textCaseAC04TextE0Ovp">textCase</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Text case</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">textCase</span><span class="p">:</span> <span class="kt"><a href="../Structs/Typography/TextCase.html">TextCase</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV14textDecorationAC04TextE0Ovp"></a>
+                    <a name="//apple_ref/swift/Property/textDecoration" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV14textDecorationAC04TextE0Ovp">textDecoration</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Text decoration (none, underline, or strikethrough)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">textDecoration</span><span class="p">:</span> <span class="kt"><a href="../Structs/Typography/TextDecoration.html">TextDecoration</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV9textStyleSo010UIFontTextE0avp"></a>
+                    <a name="//apple_ref/swift/Property/textStyle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV9textStyleSo010UIFontTextE0avp">textStyle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The text style (e.g. Body or Title) that this font most closely represents.
+Used for Dynamic Type scaling of the font</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">textStyle</span><span class="p">:</span> <span class="kt">UIFont</span><span class="o">.</span><span class="kt">TextStyle</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV7isFixedSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isFixed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV7isFixedSbvp">isFixed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Whether this font is fixed in size or should be scaled through Dynamic Type</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">isFixed</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV10fontFamily0D6Weight0D4Size10lineHeight13letterSpacing8textCase0L10Decoration0L5Style7isFixedAcA17FontRepresentable_p_AC0rF0O12CoreGraphics7CGFloatVA2rC04TextM0OAC0wN0OSo06UIFontwO0aSbtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(fontFamily:fontWeight:fontSize:lineHeight:letterSpacing:textCase:textDecoration:textStyle:isFixed:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV10fontFamily0D6Weight0D4Size10lineHeight13letterSpacing8textCase0L10Decoration0L5Style7isFixedAcA17FontRepresentable_p_AC0rF0O12CoreGraphics7CGFloatVA2rC04TextM0OAC0wN0OSo06UIFontwO0aSbtcfc">init(fontFamily:<wbr>fontWeight:<wbr>fontSize:<wbr>lineHeight:<wbr>letterSpacing:<wbr>textCase:<wbr>textDecoration:<wbr>textStyle:<wbr>isFixed:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializes a typography instance with the specified parameters</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span>
+    <span class="nv">fontFamily</span><span class="p">:</span> <span class="kt"><a href="../Protocols/FontRepresentable.html">FontRepresentable</a></span><span class="p">,</span>
+    <span class="nv">fontWeight</span><span class="p">:</span> <span class="kt"><a href="../Structs/Typography/FontWeight.html">FontWeight</a></span><span class="p">,</span>
+    <span class="nv">fontSize</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span>
+    <span class="nv">lineHeight</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span>
+    <span class="nv">letterSpacing</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+    <span class="nv">textCase</span><span class="p">:</span> <span class="kt"><a href="../Structs/Typography/TextCase.html">TextCase</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">none</span><span class="p">,</span>
+    <span class="nv">textDecoration</span><span class="p">:</span> <span class="kt"><a href="../Structs/Typography/TextDecoration.html">TextDecoration</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">none</span><span class="p">,</span>
+    <span class="nv">textStyle</span><span class="p">:</span> <span class="kt">UIFont</span><span class="o">.</span><span class="kt">TextStyle</span> <span class="o">=</span> <span class="o">.</span><span class="n">body</span><span class="p">,</span>
+    <span class="nv">isFixed</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span>
+<span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>fontFamily</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>font family to use</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>fontWeight</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>font weight to use</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>fontSize</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>font size to use</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>lineHeight</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>line height to use</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>chaacterSpacing</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>letter spacing to use (defaults to <code>0</code>)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>textCase</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>text case to apply (defaults to <code>.none</code>)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>textDecoration</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>text decoration to apply (defaults to <code>.none</code>)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>textStyle</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>text style to use for scaling (defaults to <code>.body</code>)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>isFixed</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code>true</code> if this font should never scale, <code>false</code> if it should scale (defaults to <code>.false</code>)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV10familyName9fontStyle0F6Weight0F4Size10lineHeight13letterSpacing8textCase0N10Decoration0nG07isFixedACSS_AC04FontG0OAC0sH0O12CoreGraphics7CGFloatVA2tC04TextO0OAC0wP0OSo06UIFontwG0aSbtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(familyName:fontStyle:fontWeight:fontSize:lineHeight:letterSpacing:textCase:textDecoration:textStyle:isFixed:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV10familyName9fontStyle0F6Weight0F4Size10lineHeight13letterSpacing8textCase0N10Decoration0nG07isFixedACSS_AC04FontG0OAC0sH0O12CoreGraphics7CGFloatVA2tC04TextO0OAC0wP0OSo06UIFontwG0aSbtcfc">init(familyName:<wbr>fontStyle:<wbr>fontWeight:<wbr>fontSize:<wbr>lineHeight:<wbr>letterSpacing:<wbr>textCase:<wbr>textDecoration:<wbr>textStyle:<wbr>isFixed:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializes a typography instance with the specified parameters</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span>
+    <span class="nv">familyName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+    <span class="nv">fontStyle</span><span class="p">:</span> <span class="kt"><a href="../Structs/Typography/FontStyle.html">FontStyle</a></span> <span class="o">=</span> <span class="o">.</span><span class="n"><a href="../Structs/Typography.html#/s:11YMatterType10TypographyV7regularACvp">regular</a></span><span class="p">,</span>
+    <span class="nv">fontWeight</span><span class="p">:</span> <span class="kt"><a href="../Structs/Typography/FontWeight.html">FontWeight</a></span><span class="p">,</span>
+    <span class="nv">fontSize</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span>
+    <span class="nv">lineHeight</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span>
+    <span class="nv">letterSpacing</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+    <span class="nv">textCase</span><span class="p">:</span> <span class="kt"><a href="../Structs/Typography/TextCase.html">TextCase</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">none</span><span class="p">,</span>
+    <span class="nv">textDecoration</span><span class="p">:</span> <span class="kt"><a href="../Structs/Typography/TextDecoration.html">TextDecoration</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">none</span><span class="p">,</span>
+    <span class="nv">textStyle</span><span class="p">:</span> <span class="kt">UIFont</span><span class="o">.</span><span class="kt">TextStyle</span> <span class="o">=</span> <span class="o">.</span><span class="n">body</span><span class="p">,</span>
+    <span class="nv">isFixed</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span>
+<span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>familyName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>font family name</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>fontStyle</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>font style (defaults to <code><a href="../Structs/Typography.html#/s:11YMatterType10TypographyV7regularACvp">regular</a></code>)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>fontWeight</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>font weight to use</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>fontSize</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>font size to use</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>lineHeight</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>line height to use</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>chaacterSpacing</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>letter spacing to use (defaults to <code>0</code>)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>textCase</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>text case to apply (defaults to <code>.none</code>)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>textDecoration</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>text decoration to apply (defaults to <code>.none</code>)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>textStyle</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>text style to use for scaling (defaults to <code>.body</code>)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>isFixed</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code>true</code> if this font should never scale, <code>false</code> if it should scale (defaults to <code>.false</code>)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV10FontWeightO"></a>
+                    <a name="//apple_ref/swift/Enum/FontWeight" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV10FontWeightO">FontWeight</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The nine basic font weights. Not all fonts support all 9 weights.</p>
+
+                        <a href="../Structs/Typography/FontWeight.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">FontWeight</span> <span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="kt">CaseIterable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV9FontStyleO"></a>
+                    <a name="//apple_ref/swift/Enum/FontStyle" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV9FontStyleO">FontStyle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Font style (used together with font family name and font weight to load a specific font)</p>
+
+                        <a href="../Structs/Typography/FontStyle.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">FontStyle</span> <span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="kt">CaseIterable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV8TextCaseO"></a>
+                    <a name="//apple_ref/swift/Enum/TextCase" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV8TextCaseO">TextCase</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Capitalization to be applied to user-facing text</p>
+
+                        <a href="../Structs/Typography/TextCase.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">TextCase</span> <span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="kt">CaseIterable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV14TextDecorationO"></a>
+                    <a name="//apple_ref/swift/Enum/TextDecoration" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV14TextDecorationO">TextDecoration</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Decoration to be applied</p>
+
+                        <a href="../Structs/Typography/TextDecoration.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">TextDecoration</span> <span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="kt">CaseIterable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV8LineModeO"></a>
+                    <a name="//apple_ref/swift/Enum/LineMode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV8LineModeO">LineMode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Line mode (single or multi)</p>
+
+                        <a href="../Structs/Typography/LineMode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">LineMode</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV14generateLayout16maximumPointSize14compatibleWithAA0cE0V12CoreGraphics7CGFloatVSg_So17UITraitCollectionCSgtF"></a>
+                    <a name="//apple_ref/swift/Method/generateLayout(maximumPointSize:compatibleWith:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV14generateLayout16maximumPointSize14compatibleWithAA0cE0V12CoreGraphics7CGFloatVSg_So17UITraitCollectionCSgtF">generateLayout(maximumPointSize:<wbr>compatibleWith:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Generates the font and auxilliary layout information needed to render the Typography</p>
+
+<p><code>maximumPointSize</code> will have no effect for fixed Typographies (<code><a href="../Structs/Typography.html#/s:11YMatterType10TypographyV7isFixedSbvp">isFixed</a></code> = <code>true</code>).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">generateLayout</span><span class="p">(</span>
+    <span class="nv">maximumPointSize</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="n">compatibleWith</span> <span class="nv">traitCollection</span><span class="p">:</span> <span class="kt">UITraitCollection</span><span class="p">?</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/TypographyLayout.html">TypographyLayout</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>maximumPointSize</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>(optional) maximum point size for Dynamic Type, default = nil, means no maximum</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>traitCollection</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>trait collection to apply (looking for preferredContentSizeCategory and legibilityWeight)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Font and various styles used to render the Typography</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV14generateLayout18maximumScaleFactor14compatibleWithAA0cE0V12CoreGraphics7CGFloatV_So17UITraitCollectionCSgtF"></a>
+                    <a name="//apple_ref/swift/Method/generateLayout(maximumScaleFactor:compatibleWith:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV14generateLayout18maximumScaleFactor14compatibleWithAA0cE0V12CoreGraphics7CGFloatV_So17UITraitCollectionCSgtF">generateLayout(maximumScaleFactor:<wbr>compatibleWith:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Generates the font and auxilliary layout information needed to render the Typography</p>
+
+<p><code>maximumScaleFactor</code> will have no effect for fixed Typographies (<code><a href="../Structs/Typography.html#/s:11YMatterType10TypographyV7isFixedSbvp">isFixed</a></code> = <code>true</code>).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">generateLayout</span><span class="p">(</span>
+    <span class="nv">maximumScaleFactor</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span>
+    <span class="n">compatibleWith</span> <span class="nv">traitCollection</span><span class="p">:</span> <span class="kt">UITraitCollection</span><span class="p">?</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/TypographyLayout.html">TypographyLayout</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>maximumScaleFactor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>(optional) maximum scale factor for Dynamic Type,
+e.g. <code>2.0</code> for a 16 pt font would mean limit maximum point size to 32 pts.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>traitCollection</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>trait collection to apply (looking for preferredContentSizeCategory and legibilityWeight)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Font and various styles used to render the Typography</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV7regularACvp"></a>
+                    <a name="//apple_ref/swift/Property/regular" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV7regularACvp">regular</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a copy of the Typography but with <code>.regular</code> font weight</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">regular</span><span class="p">:</span> <span class="kt">Typography</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV4boldACvp"></a>
+                    <a name="//apple_ref/swift/Property/bold" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV4boldACvp">bold</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a copy of the Typography but with <code>.bold</code> font weight</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">bold</span><span class="p">:</span> <span class="kt">Typography</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV5fixedACvp"></a>
+                    <a name="//apple_ref/swift/Property/fixed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV5fixedACvp">fixed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a copy of the Typography but with <code><a href="../Structs/Typography.html#/s:11YMatterType10TypographyV7isFixedSbvp">isFixed</a></code> set to <code>true</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">fixed</span><span class="p">:</span> <span class="kt">Typography</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV13letterSpacingyAC12CoreGraphics7CGFloatVF"></a>
+                    <a name="//apple_ref/swift/Method/letterSpacing(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV13letterSpacingyAC12CoreGraphics7CGFloatVF">letterSpacing(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a copy of the Typography but with the new <code><a href="../Structs/Typography.html#/s:11YMatterType10TypographyV13letterSpacing12CoreGraphics7CGFloatVvp">letterSpacing</a></code> applied.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">letterSpacing</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Typography</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>value</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the letter spacing to use</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>an updated copy of the Typography</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV8textCaseyA2C04TextE0OF"></a>
+                    <a name="//apple_ref/swift/Method/textCase(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV8textCaseyA2C04TextE0OF">textCase(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a copy of the Typography but with the new <code><a href="../Structs/Typography.html#/s:11YMatterType10TypographyV8textCaseAC04TextE0Ovp">textCase</a></code> applied.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textCase</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt"><a href="../Structs/Typography/TextCase.html">TextCase</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Typography</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>value</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the text case to use</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>an updated copy of the Typography</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV10decorationyA2C14TextDecorationOF"></a>
+                    <a name="//apple_ref/swift/Method/decoration(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV10decorationyA2C14TextDecorationOF">decoration(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a copy of the Typography but with the new <code><a href="../Structs/Typography.html#/s:11YMatterType10TypographyV14textDecorationAC04TextE0Ovp">textDecoration</a></code> applied.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">decoration</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt"><a href="../Structs/Typography/TextDecoration.html">TextDecoration</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Typography</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>value</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the text decoration to use</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>an updated copy of the Typography</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV12sfProDisplayAA15SFProFontFamilyVvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/sfProDisplay" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV12sfProDisplayAA15SFProFontFamilyVvpZ">sfProDisplay</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Typographical information for SF Pro Display font</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">sfProDisplay</span><span class="p">:</span> <span class="kt"><a href="../Structs/SFProFontFamily.html">SFProFontFamily</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV18sfProDisplayItalicAA15SFProFontFamilyVvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/sfProDisplayItalic" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV18sfProDisplayItalicAA15SFProFontFamilyVvpZ">sfProDisplayItalic</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Typographical information for SF Pro Display Italic font</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">sfProDisplayItalic</span><span class="p">:</span> <span class="kt"><a href="../Structs/SFProFontFamily.html">SFProFontFamily</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV9sfProTextAA15SFProFontFamilyVvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/sfProText" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV9sfProTextAA15SFProFontFamilyVvpZ">sfProText</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Typographical information for SF Pro Text font</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">sfProText</span><span class="p">:</span> <span class="kt"><a href="../Structs/SFProFontFamily.html">SFProFontFamily</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV15sfProTextItalicAA15SFProFontFamilyVvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/sfProTextItalic" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV15sfProTextItalicAA15SFProFontFamilyVvpZ">sfProTextItalic</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Typographical information for SF Pro Text Italic font</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">sfProTextItalic</span><span class="p">:</span> <span class="kt"><a href="../Structs/SFProFontFamily.html">SFProFontFamily</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV24systemLineHeightMultiple12CoreGraphics7CGFloatVvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/systemLineHeightMultiple" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV24systemLineHeightMultiple12CoreGraphics7CGFloatVvpZ">systemLineHeightMultiple</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The multiple used to generate line heights from standard or system font sizes (130%)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">systemLineHeightMultiple</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV11systemLabelACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/systemLabel" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV11systemLabelACvpZ">systemLabel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Standard typography for labels (uses the system font)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">systemLabel</span><span class="p">:</span> <span class="kt">Typography</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV12systemButtonACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/systemButton" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV12systemButtonACvpZ">systemButton</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Standard typography for buttons (uses the system font)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">systemButton</span><span class="p">:</span> <span class="kt">Typography</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV6systemACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/system" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV6systemACvpZ">system</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Typography for the system font</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">system</span><span class="p">:</span> <span class="kt">Typography</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType10TypographyV11smallSystemACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/smallSystem" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType10TypographyV11smallSystemACvpZ">smallSystem</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Typography for the small system font</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">smallSystem</span><span class="p">:</span> <span class="kt">Typography</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2022 <a class="link" href="https://yml.co" target="_blank" rel="external noopener">Y Media Labs</a>. All rights reserved. (Last updated: 2022-07-11)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+    </section>
+  </body>
+</html>

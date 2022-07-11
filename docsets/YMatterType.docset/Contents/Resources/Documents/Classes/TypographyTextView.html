@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TypographyTextView Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Class/TypographyTextView" class="dashAnchor"></a>
+
+    <a title="TypographyTextView Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          YMatterType 1.0.2 Docs
+        </a>
+         (100% documented)
+      </p>
+    
+      <div class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </div>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">YMatterType Reference</a>
+      <img class="carat" src="../img/carat.png" alt=""/>
+      TypographyTextView Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../pull_request_template.html">PULL_REQUEST_TEMPLATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../readme.html">README</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TypographyButton.html">TypographyButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TypographyLabel.html">TypographyLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TypographyTextField.html">TypographyTextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TypographyTextView.html">TypographyTextView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/NSAttributedString.html">NSAttributedString</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/NSParagraphStyle.html">NSParagraphStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIFont.html">UIFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UIFont/RegisterError.html">– RegisterError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UITraitCollection.html">UITraitCollection</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/FontRepresentable.html">FontRepresentable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/FontInfo.html">FontInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/SFProFontFamily.html">SFProFontFamily</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/SystemFontInfo.html">SystemFontInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Typography.html">Typography</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Typography/FontWeight.html">– FontWeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Typography/FontStyle.html">– FontStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Typography/TextCase.html">– TextCase</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Typography/TextDecoration.html">– TextDecoration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Typography/LineMode.html">– LineMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TypographyLayout.html">TypographyLayout</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>TypographyTextView</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">TypographyTextView</span> <span class="p">:</span> <span class="kt">UITextView</span></code></pre>
+
+                </div>
+              </div>
+            <p>A text view that supports <code><a href="../Structs/Typography.html">Typography</a></code>.</p>
+
+<p>You can optionally set <code>maximumPointSize</code> or <code>maximumScaleFactor</code> to set a cap on Dynamic Type scaling.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    By default UITextView has no intrinsic height (because content can scroll).
+If you are looking to essentially have an interactive label with link support,
+you need to set <code>isScrollEnabled = false</code> and <code>isEditable = false</code>.
+
+</div>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType18TypographyTextViewC6layoutAA0C6LayoutVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/layout" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType18TypographyTextViewC6layoutAA0C6LayoutVSgvp">layout</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The current typographical layout</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">layout</span><span class="p">:</span> <span class="kt"><a href="../Structs/TypographyLayout.html">TypographyLayout</a></span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType18TypographyTextViewC10typographyAA0C0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/typography" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType18TypographyTextViewC10typographyAA0C0Vvp">typography</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Typography to be used for this text view&rsquo;s text</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">typography</span><span class="p">:</span> <span class="kt"><a href="../Structs/Typography.html">Typography</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType18TypographyTextViewC16maximumPointSize12CoreGraphics7CGFloatVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/maximumPointSize" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType18TypographyTextViewC16maximumPointSize12CoreGraphics7CGFloatVSgvp">maximumPointSize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>(Optional) maximum point size when scaling the font.</p>
+
+<p>Value should be greater than Typography.fontSize.
+<code>nil</code> means no maximum for scaling.
+Has no effect for fixed Typography.</p>
+
+<p>If you wish to set a specific maximum scale factor instead of a fixed maximum point size,
+set <code><a href="../Classes/TypographyTextView.html#/s:11YMatterType18TypographyTextViewC18maximumScaleFactor12CoreGraphics7CGFloatVSgvp">maximumScaleFactor</a></code> instead.
+<code><a href="../Classes/TypographyTextView.html#/s:11YMatterType18TypographyTextViewC18maximumScaleFactor12CoreGraphics7CGFloatVSgvp">maximumScaleFactor</a></code> will be used if both properties are non-nil.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">maximumPointSize</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType18TypographyTextViewC18maximumScaleFactor12CoreGraphics7CGFloatVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/maximumScaleFactor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType18TypographyTextViewC18maximumScaleFactor12CoreGraphics7CGFloatVSgvp">maximumScaleFactor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>(Optional) maximum scale factor to use when scaling the font.</p>
+
+<p>Value should be greater than 1.
+<code>nil</code> means no maximum scale factor.
+Has no effect for fixed Typography.</p>
+
+<p>If you wish to set a specific maximum point size instead of a scale factor, set <code><a href="../Classes/TypographyTextView.html#/s:11YMatterType18TypographyTextViewC16maximumPointSize12CoreGraphics7CGFloatVSgvp">maximumPointSize</a></code> instead.
+Takes precedence over <code><a href="../Classes/TypographyTextView.html#/s:11YMatterType18TypographyTextViewC16maximumPointSize12CoreGraphics7CGFloatVSgvp">maximumPointSize</a></code> if both properties are non-nil.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">maximumScaleFactor</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType18TypographyTextViewC10typographyAcA0C0V_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(typography:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType18TypographyTextViewC10typographyAcA0C0V_tcfc">init(typography:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializes a text view using the specified <code><a href="../Structs/Typography.html">Typography</a></code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">required</span> <span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">typography</span><span class="p">:</span> <span class="kt"><a href="../Structs/Typography.html">Typography</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>typography</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the font information to use</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType18TypographyTextViewC11adjustFontsyyF"></a>
+                    <a name="//apple_ref/swift/Method/adjustFonts()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType18TypographyTextViewC11adjustFontsyyF">adjustFonts()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this if you&rsquo;ve made a change that would require text to be re-styled. (Normally this is not necessary).
+Override this if you need to do something additional when preferred content size
+or legibility weight has changed</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">adjustFonts</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType18TypographyTextViewC12adjustColorsyyF"></a>
+                    <a name="//apple_ref/swift/Method/adjustColors()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType18TypographyTextViewC12adjustColorsyyF">adjustColors()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Override this if you have colors that will not automatically adjust to
+Light / Dark mode, etc. This can be the case for CGColor or
+non-template images (or backgroundImages).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">adjustColors</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11YMatterType18TypographyTextViewC16adjustBreakpointyyF"></a>
+                    <a name="//apple_ref/swift/Method/adjustBreakpoint()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11YMatterType18TypographyTextViewC16adjustBreakpointyyF">adjustBreakpoint()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Override this if you have typography that might change at different breakpoints.
+You should check <code>.window?.bounds.size</code> for potential changes.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">adjustBreakpoint</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2022 <a class="link" href="https://yml.co" target="_blank" rel="external noopener">Y Media Labs</a>. All rights reserved. (Last updated: 2022-07-11)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+    </section>
+  </body>
+</html>
